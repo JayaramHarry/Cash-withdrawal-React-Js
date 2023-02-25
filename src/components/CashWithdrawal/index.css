@@ -1,0 +1,128 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.profile-container {
+  width: 80%;
+  padding: 25px;
+  background-color: #150b3e;
+  border-radius: 10px;
+  min-width: 350px;
+}
+@media screen and (min-width: 768px) {
+  .profile-container {
+    width: 50%;
+    padding-top: 48px;
+    padding-left: 36px;
+    padding-bottom: 16px;
+    padding-right: 36px;
+    max-width: 422px;
+  }
+}
+.profile-name {
+  display: flex;
+}
+.profile-pic-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c7d2fe;
+  border-radius: 40px;
+  height: 50px;
+  width: 50px;
+  color: #7c3aed;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 768px) {
+  .profile-pic-container {
+    height: 64px;
+    width: 64px;
+    border-radius: 32px;
+  }
+}
+.name {
+  color: #d4d2db;
+  font-weight: bold;
+  font-family: 'Roboto';
+  padding-left: 10px;
+}
+@media screen and (min-width: 768px) {
+  .name {
+    font-size: 20px;
+    margin-left: 16px;
+  }
+}
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.your-balance {
+  color: #585076;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 768px) {
+  .your-balance {
+    font-size: 20px;
+    margin-top: 8px;
+  }
+}
+.amount {
+  color: #c4c4c4;
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin: 0px;
+}
+@media screen and (min-width: 768px) {
+  .amount {
+    font-size: 32px;
+  }
+}
+.in-rupees {
+  font-size: 10px;
+  color: #585076;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 768px) {
+  .in-rupees {
+    font-size: 12px;
+  }
+}
+.withdraw {
+  color: #c4c4c4;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 18px;
+}
+@media screen and (min-width: 768px) {
+  .withdraw {
+    font-size: 24px;
+    margin-top: 24px;
+  }
+}
+.sum-amount {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #585076;
+}
+@media screen and (min-width: 768px) {
+  .sum-amount {
+    font-size: 16px;
+    margin-bottom: 24px;
+  }
+}
+.amount-container {
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

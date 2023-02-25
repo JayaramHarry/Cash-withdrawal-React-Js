@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.button-list {
+  list-style-type: none;
+}
+.button {
+  background-color: #585076;
+  border: 1px solid #c7d2fe;
+  border-radius: 7px;
+  color: #c4c4c4;
+  font-family: 'Roboto';
+  min-width: 150px;
+  padding: 6px;
+  margin: 10px;
+}
+@media screen and (min-width: 768px) {
+  .button {
+    font-size: 24px;
+  }
+}
